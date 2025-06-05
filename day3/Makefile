@@ -33,9 +33,9 @@ ex02:
 	@uv run ex02/mustache.py
 
 	@echo "\n\n$(BLUE)Charts available at:$(NC)"
-	@echo "📦 - Item prices boxplot 1         $(BLUE)http://localhost:8000/boxplot_item_prices.png$(NC)"
-	@echo "📦 - Item prices boxplot 1         $(BLUE)http://localhost:8000/boxplot_item_prices-2.png$(NC)"
-	@echo "🧺 - Avg basket per user boxplot   $(BLUE)http://localhost:8000/boxplot_avg_basket_per_user.png$(NC)\n\n"
+	@echo "📦🟩 - Item prices boxplot 1         $(BLUE)http://localhost:8000/boxplot_item_prices.png$(NC)"
+	@echo "📦📈 - Item prices boxplot 2         $(BLUE)http://localhost:8000/boxplot_item_prices-2.png$(NC)"
+	@echo "🧺👤 - Avg basket per user boxplot   $(BLUE)http://localhost:8000/boxplot_avg_basket_per_user.png$(NC)\n\n"
 	@cd generated && python3 -m http.server 8000
 
 pgadmin:
