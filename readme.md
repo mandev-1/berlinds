@@ -65,4 +65,6 @@ PCA (Principal Component Analysis)
 
 - Evaluating and working with regression / classification models  
 - Identifying Convergence issues  
-- Working with Voting Classifier  
+- Working with Voting Classifier
+
+Note: although denoted as days, these projects were spread out over 7 days.
